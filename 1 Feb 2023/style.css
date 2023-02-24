@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    font-family: 'Handlee', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#nav img {
+    width: 70px;
+    margin-left: 70px;
+}
+
+#nav .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40%;
+}
+
+a{
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+}
+
+.navbar ul li a{
+    color: black;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    font-weight: 900;
+    color: rgb(18, 155, 155);
+    /* font-size: 19px; */
+}
+
+#nav .navright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-right: 70px;
+}
+
+input{
+    font-size: 15px;
+    height: 25px;
+    border-radius: 3px;
+}
+#nav button {
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: rgb(18, 155, 155);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+#nav button:hover {
+    background-color: white; 
+    color: rgb(18, 155, 155);
+    border: 1px solid black;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(255, 255, 250); */
+}
+
+.left h1 {
+    margin-left: 50px;
+    padding: 10px 40px;
+    font-size: 50px;
+}
+
+.left p {
+    /* position: absolute; */
+    top: 70%;
+    margin-left: 50px;
+    padding: 10px 40px;
+}
+
+.left h1 span{
+    color: rgb(18, 155, 155);
+    font-weight: 800;
+}
+
+.left p span {
+    color: rgb(18, 155, 155);
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.right {
+    width: 40%;
+    height: 50%;
+    /* background-color: blueviolet; */
+}
+
+.right img{
+    margin: 0px 120px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 150px;
+    bottom: -50px;
+}
+
+.chat-btn button{
+    margin: 20px 190px;
+    width: 150px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: rgb(18, 155, 155);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.chat-btn button:hover{
+    background-color: white; 
+    color: rgb(18, 155, 155);
+    border: 1px solid black;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+footer p{
+    font-weight: 600;
+}
+
+footer ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+footer ul li a {
+    font-size: 30px;
+    color: black;
+}
+
+footer ul #github a{
+    color: rgb(106, 14, 107);
+}
+
+footer ul #insta a{
+    color: red;
+}
+
+footer ul #linkedin a{
+    color: rgb(13, 45, 249);
+}
